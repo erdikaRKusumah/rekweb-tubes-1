@@ -1,13 +1,12 @@
-@extends('template/main')
+@extends('layouts.app')
 
-@section('judul', 'Rekayasa Web')
-@section('container')
+@section('content')
 <div class="container">
-    <div class="row">
-        <div class="col-10">
-        
-        <h1>Hello, world!</h1>
-      
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                HALAMAN UTAMA
+            </div>
         </div>
     </div>
 </div>

@@ -13,11 +13,8 @@
 
 Route::get('/', 'PagesController@home');
 
-Route::get('/about', 'PagesController@about');
 
-Route::get('/mahasiswa', 'MahasiswaController@index');
 
-Route::get('/students', 'StudentsController@index');
+Auth::routes();
 
-Route::get('/students/{student}', 'StudentsController@show');
-
+Route::get('/home', 'HomeController@index')->name('home');
